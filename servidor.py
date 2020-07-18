@@ -21,7 +21,7 @@ class ServerThread(Thread):
         i=0
         s=0
         numero=0
-        numeros = "0123456789!#$%&()*+,-./:;<=>?@[\]^{|}~"
+        numeros = "0123456789"
         while i < len(palavra):
             for a in numeros:
                 if a == palavra[i]:
