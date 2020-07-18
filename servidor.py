@@ -28,7 +28,7 @@ class ServerThread(Thread):
                    s+= 1
             i+=1
         calculo = (i - s)
-        fim = "numero de palavras e "+str(calculo)
+        fim = "numero de letras e "+str(calculo)
         self.con.send(fim)
         self.con.close()
 
